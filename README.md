@@ -1,4 +1,4 @@
-Arborescence (Tree) du Projet:
+# Arborescence (Tree) du Projet:
 
 e-learning/
 ├── backend/
@@ -6,60 +6,54 @@ e-learning/
 │   │   └── db.js                  # Configuration de la base de données
 │   │
 │   ├── middleware/
-│   │   └── auth.js               # Middleware d'authentification
+│   │   └── auth.js                # Middleware d'authentification
 │   │
-│   ├── models/                   # Schémas de la base de données
-│   │   ├── Course.js            # Modèle de cours
-│   │   └── User.js              # Modèle d'utilisateur
+│   ├── models/                    # Schémas de la base de données
+│   │   ├── Course.js              # Modèle de cours
+│   │   └── User.js                # Modèle d'utilisateur
 │   │
-│   ├── routes/                   # Points d'entrée API
-│   │   ├── auth.js              # Routes d'authentification
-│   │   ├── courses.js           # Routes des cours
-│   │   └── users.js             # Routes des utilisateurs
+│   ├── routes/                    # Points d'entrée API
+│   │   ├── auth.js                # Routes d'authentification
+│   │   ├── courses.js             # Routes des cours
+│   │   └── users.js               # Routes des utilisateurs
 │   │
 │   ├── scripts/
-│   │   └── createAdmin.js        # Création d'utilisateur admin
+│   │   └── createAdmin.js         # Création d'utilisateur admin
 │   │
 │   ├── app.js
-│   ├── .env                      # Variables d'environnement
-│   ├── package.json              # Dépendances backend
-│   └── server.js                 # Fichier principal du serveur
+│   ├── .env                       # Variables d'environnement
+│   ├── package.json               # Dépendances backend
+│   └── server.js                  # Fichier principal du serveur
 │
 └── frontend/
     ├── public/
-    │   └── index.html            # Page HTML d'entrée
+    │   └── index.html             # Page HTML d'entrée
     │
     └── src/
-        ├── components/           # Composants réutilisables
-        │   ├── CourseDetail.jsx  # Vue détaillée du cours
-        │   ├── Home.jsx          # Page d'accueil
-        │   ├── Login.jsx         # Formulaire de connexion
-        │   ├── Navbar.jsx        # Navigation principale
-        │   ├── ProtectedRoute.js # Protection des routes
-        │   ├── Signup.jsx        # Formulaire d'inscription
-        │   │
-        │   ├── dashboards/       # Composants tableau de bord
-        │   │   ├── DashboardNavbar.js    # Navigation du tableau de bord
-        │   │   │
+        ├── components/            # Composants réutilisables
+        │   ├── CourseDetail.jsx   # Vue détaillée du cours
+        │   ├── Home.jsx           # Page d'accueil
+        │   ├── Login.jsx          # Formulaire de connexion
+        │   ├── Navbar.jsx         # Navigation principale
+        │   ├── ProtectedRoute.js  # Protection des routes
+        │   ├── Signup.jsx         # Formulaire d'inscription
+        │   ├── dashboards/        # Composants tableau de bord
+        │   │   ├── DashboardNavbar.js   # Navigation du tableau de bord
         │   │   ├── admin/
-        │   │   │   └── AdminDashboard.js  # Panneau administrateur
-        │   │   │
+        │   │   │   └── AdminDashboard.js # Panneau administrateur
         │   │   ├── instructor/
-        │   │   │   ├── CreateCourse.js    # Création de cours
+        │   │   │   ├── CreateCourse.js  # Création de cours
         │   │   │   └── InstructorDashboard.js # Tableau de bord formateur
-        │   │   │
         │   │   └── student/
         │   │       └── StudentDashboard.js # Vue étudiant
-        │   │
-        │   └── search/          # Fonctionnalité de recherche
+        │   └── search/           # Fonctionnalité de recherche
         │       ├── SearchCourses.jsx
         │       └── SearchResults.jsx
-        │
         ├── context/
         │   └── AuthContext.js    # Contexte d'authentification
-        │
-        ├── App.js               # Composant React principal
-        └── index.js             # Point d'entrée React
+        ├── App.js                # Composant React principal
+        └── index.js              # Point d'entrée React
+
 
 
 ---------------------------------------------------------
