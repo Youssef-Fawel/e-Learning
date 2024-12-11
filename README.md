@@ -1,6 +1,5 @@
 # Arborescence (Tree) du Projet:
 
-```plaintext
 e-learning/
 ├── backend/
 │   ├── config/
@@ -54,30 +53,55 @@ e-learning/
         │   └── AuthContext.js    # Contexte d'authentification
         ├── App.js                # Composant React principal
         └── index.js              # Point d'entrée React
-Installation des Dépendances:
-Pour le front-end
+
+
+---------------------------------------------------------
+
+# Installation des Dépendances:
+
+### Pour le front-end
 cd frontend
 npm install
-Pour le back-end
+
+---------------------------------------------------------
+
+### Pour le back-end
 cd backend
 npm install
-Lancement du Projet:
-Lancer le back-end
+
+---------------------------------------------------------
+
+# Lancement du Projet:
+
+### Lancer le back-end
 cd backend
 npm run dev
-Lancer le front-end
+
+---------------------------------------------------------
+
+### Lancer le front-end
 cd frontend
 npm start
-.env file:
+
+---------------------------------------------------------
+
+# .env file:
 MONGODB_URI=mongodb://localhost:27017/elearning
 JWT_SECRET=123456
 PORT=5000
-Admin Login:
+
+---------------------------------------------------------
+
+# Admin Login:
 firstName: "Admin"
 lastName: "System"
 email: "admin@admin.com"
 password: "admin123456"
-Packages Installés dans le Front-End (React.js):
+
+---------------------------------------------------------
+
+# Packages Installés dans le Front-End (React.js):
+
 @emotion/react - Version: 11.13.5 : npm install @emotion/react@11.13.5
 @emotion/styled - Version: 11.13.5 : npm install @emotion/styled@11.13.5
 @mui/icons-material - Version: 6.1.8 : npm install @mui/icons-material@6.1.8
@@ -87,7 +111,11 @@ axios - Version: 1.7.8 : npm install axios@1.7.8
 framer-motion - Version: 11.11.17 : npm install framer-motion@11.11.17
 react-router-dom - Version: 7.0.1 : npm install react-router-dom@7.0.1
 react-scripts - Version: 5.0.1 : npm install react-scripts@5.0.1
-Packages Installés dans le Back-End (Node.js):
+
+---------------------------------------------------------
+
+# Packages Installés dans le Back-End (Node.js):
+
 bcryptjs - Version: 2.4.3 : npm install bcryptjs@2.4.3
 cors - Version: 2.8.5 : npm install cors@2.8.5
 dotenv - Version: 16.4.5 : npm install dotenv@16.4.5
