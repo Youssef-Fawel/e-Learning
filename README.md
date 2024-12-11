@@ -1,3 +1,15 @@
+Ce projet de plateforme d'apprentissage en ligne est conçu pour offrir une expérience d'apprentissage en ligne, permettant aux utilisateurs d'accéder à divers cours en fonction de leurs rôles, tels qu'Administrateur, Formateur ou Étudiant. La plateforme comprend les fonctionnalités suivantes :
+
+Panneau Administrateur : Permet aux administrateurs de gérer les utilisateurs et les cours, y compris la création et la suppression de cours.
+Panneau Formateur : Permet aux formateurs de créer et gérer leurs cours, ainsi que d'interagir avec les étudiants.
+Tableau de bord Étudiant : Offre aux étudiants un accès aux cours disponibles, un suivi de leurs progrès et une gestion de leur apprentissage personnel.
+Authentification : La plateforme met en œuvre un système d'authentification sécurisé utilisant des JWT (JSON Web Tokens) pour protéger les sessions et les données des utilisateurs.
+Fonctionnalité de recherche : Les utilisateurs peuvent rechercher des cours par divers critères comme le titre, la catégorie ou l'instructeur.
+Conception responsive : Le front-end est développé avec React.js pour créer une interface utilisateur moderne, rapide et responsive.
+Le back-end, développé avec Node.js et MongoDB, gère l'authentification des utilisateurs, la gestion des cours et les interactions, tandis que le front-end utilise React.js pour afficher une interface propre et conviviale. La plateforme est sécurisée, évolutive et offre une expérience d'apprentissage engageante aux utilisateurs.
+
+
+
 # Arborescence (Tree) du Projet:
 
 ```plaintext
