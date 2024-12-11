@@ -86,26 +86,25 @@ password: "admin123456"
 
 # Packages Installés dans le Front-End (React.js):
 
-@emotion/react - Version: 11.13.5 : npm install @emotion/react@11.13.5
-@emotion/styled - Version: 11.13.5 : npm install @emotion/styled@11.13.5
-@mui/icons-material - Version: 6.1.8 : npm install @mui/icons-material@6.1.8
-@mui/material - Version: 6.1.8 : npm install @mui/material@6.1.8
-@mui/x-data-grid - Version: 7.23.0 : npm install @mui/x-data-grid@7.23.0
-axios - Version: 1.7.8 : npm install axios@1.7.8
-framer-motion - Version: 11.11.17 : npm install framer-motion@11.11.17
-react-router-dom - Version: 7.0.1 : npm install react-router-dom@7.0.1
-react-scripts - Version: 5.0.1 : npm install react-scripts@5.0.1
-
+- @emotion/react - Version: 11.13.5 : `npm install @emotion/react@11.13.5`
+- @emotion/styled - Version: 11.13.5 : `npm install @emotion/styled@11.13.5`
+- @mui/icons-material - Version: 6.1.8 : `npm install @mui/icons-material@6.1.8`
+- @mui/material - Version: 6.1.8 : `npm install @mui/material@6.1.8`
+- @mui/x-data-grid - Version: 7.23.0 : `npm install @mui/x-data-grid@7.23.0`
+- axios - Version: 1.7.8 : `npm install axios@1.7.8`
+- framer-motion - Version: 11.11.17 : `npm install framer-motion@11.11.17`
+- react-router-dom - Version: 7.0.1 : `npm install react-router-dom@7.0.1`
+- react-scripts - Version: 5.0.1 : `npm install react-scripts@5.0.1`
 
 # Packages Installés dans le Back-End (Node.js):
 
-bcryptjs - Version: 2.4.3 : npm install bcryptjs@2.4.3
-cors - Version: 2.8.5 : npm install cors@2.8.5
-dotenv - Version: 16.4.5 : npm install dotenv@16.4.5
-express - Version: 4.21.1 : npm install express@4.21.1
-jsonwebtoken - Version: 9.0.2 : npm install jsonwebtoken@9.0.2
-mongoose - Version: 8.8.3 : npm install mongoose@8.8.3
-nodemon - Version: 2.0.22 : npm install nodemon@2.0.22
+- bcryptjs - Version: 2.4.3 : `npm install bcryptjs@2.4.3`
+- cors - Version: 2.8.5 : `npm install cors@2.8.5`
+- dotenv - Version: 16.4.5 : `npm install dotenv@16.4.5`
+- express - Version: 4.21.1 : `npm install express@4.21.1`
+- jsonwebtoken - Version: 9.0.2 : `npm install jsonwebtoken@9.0.2`
+- mongoose - Version: 8.8.3 : `npm install mongoose@8.8.3`
+- nodemon - Version: 2.0.22 : `npm install nodemon@2.0.22`
 
 
 # Arborescence (Tree) du Projet:
