@@ -14,8 +14,7 @@ Ce projet de plateforme d'apprentissage en ligne est conçu pour offrir une exp�
 
 ### 3. **Tableau de bord Étudiant**
    - Offre aux étudiants un accès direct aux **cours disponibles**.
-   - Suivi de leurs **progrès** et gestion de leur apprentissage personnel.
-
+   
 ### 4. **Authentification**
    - Utilisation de **JSON Web Tokens (JWT)** pour sécuriser l'accès à la plateforme.
    - Protéger les sessions et les données sensibles des utilisateurs.
